@@ -1,4 +1,4 @@
-onst fs = require('fs')
+const fs = require('fs')
 const path = require('path')
 
 const read = (dir, filter = () => true) =>
